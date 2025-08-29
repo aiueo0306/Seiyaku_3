@@ -26,7 +26,7 @@ from browser_utils import click_button_in_order
 
 # ===== 固定情報（学会サイト） =====
 BASE_URL = "https://www.skk-net.com/pressrelease/index.html"
-GAKKAI = "三和化学"
+GAKKAI = "三和化学(ニュース)"
 
 SELECTOR_TITLE = "ul.newsList.js-grid.mt80 li"
 title_selector = "span.newsList_titleText"

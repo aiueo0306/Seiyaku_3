@@ -27,7 +27,7 @@ from browser_utils import click_button_in_order
 
 # ===== 固定情報（学会サイト） =====
 BASE_URL = "https://www.sandoz.jp/news/"
-GAKKAI = "サンド"
+GAKKAI = "サンド(ニュース)"
 
 SELECTOR_TITLE = "div.tab-content div.news-filter-content"
 title_selector = "h4"

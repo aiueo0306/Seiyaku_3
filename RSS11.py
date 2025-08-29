@@ -26,7 +26,7 @@ from browser_utils import click_button_in_order
 
 # ===== 固定情報（学会サイト） =====
 BASE_URL = "https://www.cslbehring.co.jp/newsroom"
-GAKKAI = "CSLベーリング"
+GAKKAI = "CSLベーリング(ニュース)"
 
 SELECTOR_TITLE = "div.grid div.m-list"
 title_selector = "a"

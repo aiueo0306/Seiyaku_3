@@ -26,7 +26,7 @@ from browser_utils import click_button_in_order
 
 # ===== 固定情報（学会サイト） =====
 BASE_URL = "https://www.shionogi.com/jp/ja/news.html"
-GAKKAI = "塩野義"
+GAKKAI = "塩野義（ニュース）"
 
 SELECTOR_TITLE = "div.news-content.js-filter__content div.mod-news-list__content"
 title_selector = "a"

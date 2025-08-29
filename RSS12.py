@@ -26,7 +26,7 @@ from browser_utils import click_button_in_order
 
 # ===== 固定情報（学会サイト） =====
 BASE_URL = "https://www.jcrpharm.co.jp/"
-GAKKAI = "JCRファーマ"
+GAKKAI = "JCRファーマ（ニュース）"
 
 SELECTOR_TITLE = "div#dataList dd"
 title_selector = "a"
