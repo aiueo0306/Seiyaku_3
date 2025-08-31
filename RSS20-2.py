@@ -71,7 +71,7 @@ with sync_playwright() as p:
 
     try:
         print("▶ ページにアクセス中...")
-        page.goto(BASE_URL, timeout=240000)
+        page.goto(BASE_URL, timeout=30000)
         try:
             page.wait_for_load_state("networkidle", timeout=30000)
         except Exception:
@@ -91,7 +91,7 @@ with sync_playwright() as p:
             print("ℹ ポップアップ処理はスキップしました（POPUP_MODE=0 または ボタン未指定）")
 
         # 本文読み込み
-        page.wait_for_load_state("load", timeout=240000)
+        page.wait_for_load_state("load", timeout=30000)
 
     except PlaywrightTimeoutError:
         print("⚠ ページの読み込みに失敗しました。")
