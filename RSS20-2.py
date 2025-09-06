@@ -29,12 +29,12 @@ from browser_utils import click_button_in_order
 BASE_URL = "https://medical.taisho.co.jp/medical/"
 GAKKAI = "大正製薬（ニュースレター）"
 
-SELECTOR_TITLE = "div._news_list_1i7wf_1.false.m_6d731127.mantine-Stack-root div._news_text_jzd1w_19"
+SELECTOR_TITLE = "div._important_news_o8tza_18 div._news_text_jzd1w_19"
 title_selector = ""
 title_index = 0
 href_selector = "a"
 href_index = 0
-SELECTOR_DATE = "p.mantine-focus-auto._date_jzd1w_1.m_b6d8b162.mantine-Text-root"  # typo修正済み
+SELECTOR_DATE = "div._important_news_o8tza_18 p.mantine-focus-auto._date_jzd1w_1.m_b6d8b162.mantine-Text-root"  # typo修正済み
 date_selector = ""
 date_index = 0
 year_unit = "."
