@@ -26,15 +26,15 @@ from scraper_utils import extract_items
 from browser_utils import click_button_in_order
 
 # ===== 固定情報（学会サイト） =====
-BASE_URL = "https://medical.taisho.co.jp/medical/doctor-news/"
+BASE_URL = "https://medical.taisho.co.jp/medical/"
 GAKKAI = "大正製薬（ニュースレター）"
 
-SELECTOR_TITLE = "div._page_inner_contents_1r7ok_40.m_6d731127.mantine-Stack-root div._news_text_jzd1w_19"
+SELECTOR_TITLE = "div._news_list_1i7wf_1 false m_6d731127 mantine-Stack-root div._news_text_jzd1w_19"
 title_selector = ""
 title_index = 0
 href_selector = "a"
 href_index = 0
-SELECTOR_DATE = "p.mantine-focus-auto._date_jzd1w_1.m_b6d8b162.mantine-Text-root"  # typo修正済み
+SELECTOR_DATE = "p.mantine-focus-auto _date_jzd1w_1.m_b6d8b162 mantine-Text-root"  # typo修正済み
 date_selector = ""
 date_index = 0
 year_unit = "."
